@@ -1,10 +1,16 @@
 import numpy as np
-from scipy.optimize import minimize
+import scipy.optimize as opt
+from numba import jit
+
+@jit(nopython=True)
+def fast_sum(arr):
+    """Optimized summation using Numba JIT."""
+    total = 0
+    for x in arr:
+        total += x
+    return total
 
 def gradient_descent(func, x0):
-    return minimize(func, x0, method='BFGS')
-
-def newtons_method(f, df, x0, tol=1e-5):
-    while abs(f(x0)) > tol:
-        x0 = x0 - f(x0)/df(x0)
-    return x0
+    """Finds the minimum of a function using gradient descent."""
+    result = opt.minimize(func, x0, method='BFGS')
+    return result.x, result.fun
