@@ -1,0 +1,24 @@
+{
+  "prompt_name": "Supervised Learning for AI Applications",
+  "use_case": "Machine Learning - AI Training",
+  "ai_model": "Various (GPT-4, CNNs, Vision Models)",
+  "prompt_template": "I need to train a supervised learning model for {task}. The dataset consists of {dataset_type}, and I need the AI to learn the relationship between {input_variable} and {output_variable}. \n\nThe model should:\n1. Process labeled data efficiently.\n2. Learn feature representations from {data_type}.\n3. Minimize errors in classification or regression tasks.\n\nProvide an optimized training strategy, including dataset preprocessing, model architecture selection, and performance evaluation methods.",
+  "implementation_steps": [
+    "Step 1: Collect labeled training data relevant to {task}.",
+    "Step 2: Choose a supervised learning model (e.g., CNN for images, Transformer for text).",
+    "Step 3: Train the model using {loss_function} and {optimizer}.",
+    "Step 4: Evaluate model performance using {metric} and adjust hyperparameters if needed.",
+    "Step 5: Deploy and test the model in real-world applications."
+  ],
+  "best_scenarios": [
+    "Email spam filtering",
+    "Medical imaging AI diagnosis",
+    "LLM training for AI-powered assistants"
+  ],
+  "limitations": [
+    "Requires high-quality labeled datasets.",
+    "May develop unintended correlations (e.g., gender detection from retina scans).",
+    "Bias risk if dataset lacks diversity."
+  ],
+  "source_reference": "DeepLearning.AI - Supervised Learning Module"
+}
