@@ -199,3 +199,27 @@ Documents/
 Movies/
 Music/
 Pictures/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Zsh configuration & temp files
+.oh-my-zsh/
+.zshrc.pre-oh-my-zsh
+.zcompdump*
+.zlua
+.ssh/
+.wdm/
+zsh_backup/
+
+# Ignore Python environment & compiled files
+__pycache__/
+*.py[cod]
+.env
+.venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore IPython & Jupyter Notebook cache
+.ipynb_checkpoints/
