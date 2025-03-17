@@ -1,3 +1,9 @@
+# Ignore files
+.vscode/
+.zsh_history
+python-library/
+scientific-computing-scripts/
+
 # Ignore system files
 .DS_Store
 .lesshst
@@ -14,12 +20,24 @@ zsh_backup/
 .ssh/
 
 # Ignore macOS system directories
-Library/
 Desktop/
 Movies/
 Music/
 Pictures/
 Applications/
+.DS_Store
+Library/
+Library/Application Support/
+Library/Saved Application State/
+Library/Preferences/
+Library/Caches/
+Library/Logs/
+.npm/
+.ssh/
+.wdm/
+.zsh_sessions/
+.zsh_history
+.zshrc
 
 # Ignore Python virtual environments
 .env/
