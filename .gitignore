@@ -9,6 +9,24 @@
 .wdm/
 zsh_backup/
 
+# Ignore system & shell files
+.BrowserLock/
+.bash_history
+.cache/
+.config/
+.python_history
+.vscode/
+.zsh_history
+.zshrc
+.zshrcsource
+
+# Ignore personal directories
+Documents/
+Downloads/
+
+# Ignore logs
+zsh_install.log
+
 # Ignore shell & config files
 .oh-my-zsh/
 
