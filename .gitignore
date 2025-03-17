@@ -1,3 +1,46 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system & cache directories
+Library/
+Library/Application Support/
+Library/Saved Application State/
+Library/Preferences/
+Library/Caches/
+Library/Logs/
+
+# Ignore shell & security files
+.lesshst
+.zsh_sessions/
+.zsh_history
+.zlua
+.oh-my-zsh/
+.ssh/
+.wdm/
+
+# Ignore package manager caches
+.npm/
+.yarn/
+
+# Ignore Python virtual environments & logs
+.env/
+.venv/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore AI Trading Bot logs & temp files
+AlpacaTradingBot/
+AlpacaTradingBot/venv/
+AlpacaTradingBot/.ipynb_checkpoints/
+
+# Ignore extension & IDE metadata
+.vscode/
+
+
 # Ignore files
 .vscode/
 .zsh_history
