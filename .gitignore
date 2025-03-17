@@ -1,4 +1,4 @@
-# Ignore system-generated files
+# Ignore system files
 .DS_Store
 .lesshst
 .zshrc.pre-oh-my-zsh
@@ -9,26 +9,9 @@
 .wdm/
 zsh_backup/
 
-# Ignore system & shell files
-.BrowserLock/
-.bash_history
-.cache/
-.config/
-.python_history
-.vscode/
-.zsh_history
-.zshrc
-.zshrcsource
-
-# Ignore personal directories
-Documents/
-Downloads/
-
-# Ignore logs
-zsh_install.log
-
 # Ignore shell & config files
 .oh-my-zsh/
+.ssh/
 
 # Ignore macOS system directories
 Library/
@@ -49,10 +32,6 @@ ai-trading-env/
 assistant_env/
 finBERT/
 
-# Ignore Untracked Project Directories
-python-library/
-scientific-computing-scripts/
-
 # Ignore Jupyter Notebook auto-generated files
 .ipynb_checkpoints/
 *.ipynb
@@ -61,21 +40,9 @@ scientific-computing-scripts/
 *.db
 untitled.py
 
-# Ignore AI Model & Trading files
-AlpacaTradingBot/
-
 # Ignore package manager caches
 .npm/
 .yarn/
 
 # Ignore Image Files
 FavoriteImage*.png
-
-# Ignore compiled Python files
-__pycache__/
-*.py[cod]
-
-# Ignore Logs & Cache Files
-pip-log.txt
-pip-delete-this-directory.txt
-
