@@ -186,6 +186,39 @@ cython_debug/
 .config/
 .vscode/
 
+# Ignore system-generated files
+.DS_Store
+.lesshst
+.zshrc.pre-oh-my-zsh
+.zsh_sessions/
+.zcompdump*
+.zlua
+.wdm/
+
+# Ignore temporary directories
+Library/
+Desktop/
+Movies/
+Music/
+Pictures/
+Applications/
+
+# Ignore environment-related directories
+.env
+.venv/
+env/
+venv/
+ai-trading-env/
+assistant_env/
+finBERT/
+
+# Ignore untracked project directories
+python-library/
+scientific-computing-scripts/
+
+# Ignore Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
 # Ignore package manager caches
 .npm/
 .yarn/
