@@ -172,3 +172,30 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore shell and config files
+.bash_history
+.python_history
+.zsh_history
+.zsh_sessions/
+.zshrc
+.zshrcsource
+.config/
+.vscode/
+
+# Ignore package manager caches
+.npm/
+.yarn/
+
+# Ignore temp & personal directories
+oh-my-zsh/
+
+AlpacaTradingBot/
+Applications/
+Documents/
+Movies/
+Music/
+Pictures/
