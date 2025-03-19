@@ -5,10 +5,14 @@ import csv
 csv_dir = os.path.expanduser("~/python-library/logs")
 csv_file = os.path.join(csv_dir, "method_comparisons.csv")
 
+print(f"✅ Checking if directory exists: {csv_dir}")
+
 # Ensure the directory exists
 if not os.path.exists(csv_dir):
+    print("📂 Directory does not exist. Creating now...")
     os.makedirs(csv_dir)
-    print(f"📂 Created missing directory: {csv_dir}")
+else:
+    print("📂 Directory already exists.")
 
 # Sample benchmark data
 benchmarks = [

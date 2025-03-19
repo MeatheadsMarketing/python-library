@@ -105,5 +105,70 @@ untitled.py
 .npm/
 .yarn/
 
+<<<<<<< HEAD
 # Ignore Image Files
 FavoriteImage*.png
+=======
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#.idea/
+
+# Ruff stuff:
+.ruff_cache/
+
+# PyPI configuration file
+.pypirc
+# Ignore macOS & system files
+.DS_Store
+.Trash/
+.Library/
+Library/
+Library/Application Support/
+Library/Saved Application State/
+Library/Preferences/
+Library/Caches/
+Library/Logs/
+
+# Ignore shell & security files
+.lesshst
+.zsh_sessions/
+.zsh_history
+.zlua
+.oh-my-zsh/
+.ssh/
+zsh_backup/
+
+# Ignore package manager caches
+.npm/
+.yarn/
+
+# Ignore Python virtual environments & logs
+.env/
+.venv/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore IDE metadata
+.vscode/
+.idea/
+
+# Ignore logs & temporary files
+logs/
+*.log
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+>>>>>>> b1c6eae (Initialized clean repository with proper structure)
